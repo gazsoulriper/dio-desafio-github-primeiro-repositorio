@@ -22,6 +22,7 @@ O git status comando pode ser usado para obter um resumo de quais arquivos têm 
 O git addcomando não adicionará arquivos ignorados por padrão. Se algum arquivo ignorado foi especificado explicitamente na linha de comando, git addfalhará com uma lista de arquivos ignorados. Arquivos ignorados alcançados por recursão de diretório ou globbing de nome de arquivo executado pelo Git (cite seus globs antes do shell) serão ignorados silenciosamente. O comando git add pode ser usado para adicionar arquivos ignorados com a -fopção (force).
 
 **Git commit**
+
 O Git commit permite que você crie um commit, ou seja, você consegue guardar o estado do seu repositório naquele momento. Existem diferentes estratégias para fazer commits, mas a ideia principal é que a cada ponto em que o seu código esteja funcionando com uma nova pequena funcionalidade, exista um commit. 
 
 Dessa forma, ao longo do tempo, você vai conseguir ver uma “história” do seu repositório e o que aconteceu para que chegasse do jeito que está hoje. Um commit, além de mostrar um snapshot do seu repositório, tem outros metadados, como autoria, uma mensagem, timestamp, entre outros.
